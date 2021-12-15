@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.idCell{
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  text-decoration: underline;
+}
+
+/* .ag-tool-panel-wrapper {
+   min-width: 400px; 
+} */
+
+.ag-tool-panel-wrapper .ag-react-container {
+  width: 100%;
+}
+
+form label {
+  font-size: 14px;
+  font-weight: bold;
+  display: inline-block;
+  margin: 5px 0;
+}
+
+form .my-form-control {
+  margin: 10px;
+}
+
+.ag-header-cell-menu-button:not(.ag-header-menu-always-show) {
+  display: none;
+}
+
+.link{
+  cursor: pointer;
+  text-decoration: underline;
+}
+.flex{
+  display: flex;
+  align-items: center;
+}
+
+[col-id="id"].active{
+  cursor: pointer;
+}
+
+[col-id="id"].active .ag-header-cell-text{
+  text-decoration: underline;
+}
+
+form,.form{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 10px;
+}
+
+form .width100, .form .width100{
+  margin-bottom: 20px;
+  width: 100%;
+}
